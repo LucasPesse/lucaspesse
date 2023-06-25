@@ -1,0 +1,79 @@
+html{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+*{
+    margin: 0px;
+    line-height: 35px;
+}
+
+.body__h1{
+    font-family: garamond;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.li__a--nav{
+    text-decoration: none;
+    color: black;
+}
+.div__input--searchmovie{
+    width: 300px;
+}
+.php__div--table{
+    display: flex;
+    justify-content: center;
+}
+table, td, th{
+    border: 1px solid black;
+}
+td, th{
+    padding: 10px;
+}
+.header__nav{
+    background-image: url("./asset/back.jpg");
+    border-bottom: 1px solid black;
+    padding: 20px 0px;
+}
+.button{
+    padding: 10px;
+}
+.body__div--movies{
+    display: flex;
+    justify-content: space-evenly;
+}
+.article__p--subtitle{
+    font-size: small;
+    text-align: center;
+}
+.div__article--movie{
+    height: auto;
+    width: 500px;
+}
+.div__article--movie > img{
+    width: 100%;
+}
+.article__h2--moviename{
+    text-align: center;
+}
+.article__h2--moviename:hover{
+    text-shadow: 2px 2px grey;
+    color: rgb(133, 0, 0);
+    transition: 1s;
+}
+label{
+    width: 200px;
+}
+li{
+    padding: 0px 5px;
+    background-color: white;
+    border: 1px solid black;
+}
+.form__span--membership{
+    color: red;
+    font-weight: bold;
+}

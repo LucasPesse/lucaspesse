@@ -1,7 +1,0 @@
-{
-  "server": {
-    "host": "localhost",
-    "port": 4242,
-    "mode": "developpment"
-  }
-}
